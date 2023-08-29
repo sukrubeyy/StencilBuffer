@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StencialWrite 0.1
-  m_Shader: {fileID: 4800000, guid: 6b2d1f75274f1a4448d46918dd037035, type: 3}
+  m_Name: StencilRead
+  m_Shader: {fileID: 4800000, guid: c72082dedba472547ac718e48ae99ab5, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -18,8 +18,13 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _StencilRef: 0
-    m_Colors: []
+    m_Colors:
+    - _Maincolor: {r: 0.9716981, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
